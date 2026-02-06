@@ -1,0 +1,35 @@
+﻿Analyzing omnipro_productivity...                               
+
+warning - Unused import: 'package:pdf/pdf.dart' - lib\core\services\report_service.dart:2:8 - unused_import
+warning - Duplicate import - lib\core\storage\hive_service.dart:11:8 - duplicate_import
+warning - Unused import: 'package:pointycastle/export.dart' - lib\core\utils\encryption.dart:3:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\widgets\splash_screen.dart:76:58 - deprecated_member_use
+  error - Undefined name 'walletProvider' - lib\features\alarm\presentation\pages\alarm_page.dart:12:37 - undefined_identifier
+warning - The value of the local variable 'notifier' isn't used - lib\features\alarm\presentation\pages\alarm_page.dart:13:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\alarm\presentation\pages\alarm_page.dart:21:31 - deprecated_member_use
+  error - The method 'notifyListeners' isn't defined for the type 'AlarmNotifier' - lib\features\alarm\presentation\pages\alarm_page.dart:53:56 - undefined_method
+  error - Undefined name 'walletProvider' - lib\features\alarm\presentation\pages\alarm_page.dart:87:26 - undefined_identifier
+warning - The value of the field '_checkTimer' isn't used - lib\features\alarm\presentation\providers\alarm_provider.dart:23:10 - unused_field
+warning - Unused import: 'package:uuid/uuid.dart' - lib\features\books\data\models\book_model.dart:2:8 - unused_import
+  error - The named parameter 'indent' isn't defined - lib\features\books\presentation\pages\book_page.dart:30:65 - undefined_named_parameter
+  error - The named parameter 'endIndent' isn't defined - lib\features\books\presentation\pages\book_page.dart:30:77 - undefined_named_parameter
+warning - Unused import: 'package:uuid/uuid.dart' - lib\features\budget\data\models\budget_model.dart:2:8 - unused_import
+   info - Use 'const' with the constructor to improve performance - lib\features\budget\presentation\pages\budget_page.dart:20:23 - prefer_const_constructors
+  error - The named parameter 'padding' isn't defined - lib\features\expenses\presentation\pages\expense_page.dart:21:13 - undefined_named_parameter
+   info - Statements in an if should be enclosed in a block - lib\features\expenses\presentation\pages\expense_page.dart:59:23 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\features\expenses\presentation\pages\expense_page.dart:60:12 - curly_braces_in_flow_control_structures
+warning - Unused import: 'package:uuid/uuid.dart' - lib\features\flashcards\data\models\flashcard_model.dart:2:8 - unused_import
+warning - Unused import: 'package:uuid/uuid.dart' - lib\features\goals\data\models\goal_model.dart:2:8 - unused_import
+warning - Unused import: 'package:uuid/uuid.dart' - lib\features\journal\data\repositories\journal_repository.dart:3:8 - unused_import
+  error - The method 'jsonDecode' isn't defined for the type 'JournalRepository' - lib\features\journal\data\repositories\journal_repository.dart:49:34 - undefined_method
+  error - The method 'jsonEncode' isn't defined for the type 'JournalRepository' - lib\features\journal\data\repositories\journal_repository.dart:58:30 - undefined_method
+  error - Arguments of a constant creation must be constant expressions - lib\features\journal\presentation\pages\journal_page.dart:34:27 - const_with_non_constant_argument
+  error - The getter 'add_edit' isn't defined for the type 'Icons' - lib\features\journal\presentation\pages\journal_page.dart:34:33 - undefined_getter
+warning - Unused import: 'dart:convert' - lib\features\passwords\data\models\password_model.dart:1:8 - unused_import
+warning - The value of the local variable 'pass' isn't used - lib\features\passwords\presentation\pages\password_list_page.dart:67:23 - unused_local_variable
+warning - Unused import: 'package:uuid/uuid.dart' - lib\features\passwords\presentation\providers\password_provider.dart:5:8 - unused_import
+warning - Unused import: 'package:omnipro_productivity/features/notes/data/models/note_model.dart' - lib\features\search\presentation\pages\search_page.dart:4:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps - lib\features\settings\presentation\pages\data_management_page.dart:32:38 - use_build_context_synchronously
+warning - Unused import: 'package:uuid/uuid.dart' - lib\features\time_tracker\data\models\time_model.dart:2:8 - unused_import
+warning - Unused import: 'package:omnipro_productivity/features/todo/presentation/pages/todo_list_page.dart' - lib\main.dart:7:8 - unused_import
+
